@@ -133,7 +133,7 @@
 		}
 	\end{flushright}	
 	\newpage
-	\setcounter{page}{1}
+	\setcounter{page}{2}
 	\endgroup}
 
 \begin{document}
@@ -157,6 +157,29 @@
 \end{multline*}
 \underline{Ответ:} ряд  \textbf{сходится}  по признаку  д'Аламбера
 
+
+\subsection{б}
+\begin{equation}
+\sum \limits_{n = 1}^{\infty} \left( arctg \frac{n+1}{n^2} - ln \left(1+ tg \frac{1}{n} \right) \right)^2
+\end{equation}
+\\
+1. Ряд знакопостоянный\\
+2. Воспрользуемся разложением функций в ряд Маклорена при $n \to \infty$
+\begin{gather*}
+arctg \frac {n+1}{n^2} = \frac {1}{n} + \frac {1}{n^2}  + o\left( \frac{1}{n^3} \right) \\
+tg \frac{1}{n} =  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\\
+ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{n} -  \frac{1}{2n^2}  + o\left( \frac{1}{n^3} \right)
+\end{gather*}
+Тогда подставляя получаем:
+\begin{multline}
+\left(  \frac {1}{n} + \frac {1}{n^2}  + o\left( \frac{1}{n^3} \right) - \left(  \frac {1}{n} -  \frac{1}{2n^2}  + o\left( \frac{1}{n^3} \right)\right) \right)^2 = \left(  \frac {3}{2n^2}  + o\left( \frac{1}{n^3} \right) \right)^2 =\\
+= \frac{9}{4n^4} +  \frac{3}{n^2} \cdot  o\left( \frac{1}{n^3} \right)+ o\left( \frac{1}{n^6} \right)
+\end{multline}
+В силу сходимости рядов $\frac{9}{4n^4} $, $\frac{3}{n^2} \cdot  o\left( \frac{1}{n^3} \right)$ и $o\left( \frac{1}{n^6} \right)$ и согласно арифметическим свойствам рядов их сумма тоже сходится.\\
+
+\underline{Ответ:} ряд  \textbf{сходится}
+
+\subsection{в}
 \end{document}
 
 

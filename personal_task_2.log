@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  26 MAY 2023 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  26 MAY 2023 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1327,24 +1327,28 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.160 \end{document}
-                     [1] (./personal_task_2.aux)
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[3] (./personal_task_2.aux)
 Package rerunfilecheck Info: File `personal_task_2.out' has not changed.
-(rerunfilecheck)             Checksum: DFB2395C1F618D76CB305389430BE99D;313.
+(rerunfilecheck)             Checksum: 8C88F7AC3D541E440208B6CA6796303A;378.
  ) 
 Here is how much of TeX's memory you used:
- 51674 strings out of 476001
- 1295641 string characters out of 5793197
- 1974947 words of memory out of 5000000
- 71530 multiletter control sequences out of 15000+600000
+ 51680 strings out of 476001
+ 1295707 string characters out of 5793197
+ 1977947 words of memory out of 5000000
+ 71531 multiletter control sequences out of 15000+600000
  525965 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,89p,768b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,89p,768b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dis
@@ -1360,10 +1364,10 @@ fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type
 m-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
 rm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
 ><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on personal_task_2.pdf (2 pages, 206077 bytes).
+Output written on personal_task_2.pdf (3 pages, 212881 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 
