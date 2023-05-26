@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  26 MAY 2023 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  26 MAY 2023 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1333,20 +1333,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--179
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+
+ []
+
+
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[3] (./personal_task_2.aux)
+[3]
+Overfull \hbox (38.47554pt too wide) detected at line 207
+ []$[]   [] [] [] [] \OT1/cmr/m/n/10 = [] [] = [] [] = [] [] = [] [] = 0$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
+
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[4] (./personal_task_2.aux)
 Package rerunfilecheck Info: File `personal_task_2.out' has not changed.
-(rerunfilecheck)             Checksum: 8C88F7AC3D541E440208B6CA6796303A;378.
+(rerunfilecheck)             Checksum: D4E83A7449AEE41BEF86E41578A6230C;508.
  ) 
 Here is how much of TeX's memory you used:
- 51680 strings out of 476001
- 1295707 string characters out of 5793197
+ 51690 strings out of 476001
+ 1295832 string characters out of 5793197
  1977947 words of memory out of 5000000
- 71531 multiletter control sequences out of 15000+600000
- 525965 words of font info for 67 fonts, out of 8000000 for 9000
+ 71534 multiletter control sequences out of 15000+600000
+ 526839 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,768b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
@@ -1356,18 +1396,20 @@ t/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texl
-ive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/
-fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type
-1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
-m-super/sfrm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
-rm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
-><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on personal_task_2.pdf (3 pages, 212881 bytes).
+b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texl
+ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/texmf-dist/
+fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type
+1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
+m-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
+rm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
+><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/te
+xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on personal_task_2.pdf (4 pages, 245899 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 16 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
