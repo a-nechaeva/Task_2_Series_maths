@@ -226,7 +226,26 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 \end{multline*}
 Следовательно, ряд расходится.\\\\
 \underline{Ответ:} ряд  \textbf{расходится}
-
+\subsection{e*}
+\begin{equation}
+\sum \limits_{n = 1}^{\infty}\int_0^1 x \cdot \cos nx \, dx
+\end{equation}
+\\
+\\
+\section{Область сходимости функционального ряда}
+\begin{equation}
+\sum \limits_{n = 1}^{\infty}\frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}
+\end{equation}
+1. Нахождение области абсолютной сходимости ряда\\
+Заметим, что все члены ряда определены для всех вещественных значений $x$, причем в точках  $x=\frac{\pi k}{2}, \,\, k \in Z$ все члены ряда равны нулю, поэьлму в этих точках ряд сходится (абсолютно).\\
+Преобразуем числитель в сумму
+\begin{equation}
+\cos( nx) \cdot \cos (3nx) = \frac{1}{2}\left( \cos(2nx) + \cos(4nx) \right)
+\end{equation}
+Тогда
+\begin{equation}
+\frac{\cos( 2nx) }{n^{\frac{x}{3}}}+\frac{ \cos (4nx) }{n^{\frac{x}{3}}}
+\end{equation}
 \end{document}
 
 
