@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  27 MAY 2023 01:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  27 MAY 2023 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1333,27 +1333,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--179
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--193
+Underfull \hbox (badness 10000) in paragraph at lines 185--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--193
-
+Overfull \hbox (23.95195pt too wide) in paragraph at lines 197--200
+\T2A/cmr/m/n/10 ѕо при-зна-ку срав-не-ни€ р€д $[] []$ рас-хо-дит-с€, сле-до-ва-
+тель-но, $[] []$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--193
+Underfull \hbox (badness 10000) in paragraph at lines 197--200
 
  []
 
@@ -1363,12 +1354,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [3]
-Overfull \hbox (38.47554pt too wide) detected at line 207
- []$[]   [] [] [] [] \OT1/cmr/m/n/10 = [] [] = [] [] = [] [] = [] [] = 0$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--214
+Underfull \hbox (badness 10000) in paragraph at lines 206--210
 
  []
 
@@ -1378,17 +1364,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 226--229
-
+Overfull \hbox (38.47554pt too wide) detected at line 225
+ []$[]   [] [] [] [] \OT1/cmr/m/n/10 = [] [] = [] [] = [] [] = [] [] = 0$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
 
  []
 
@@ -1397,14 +1378,34 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[5] (./personal_task_2.aux)
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 244--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--253
+
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[6] (./personal_task_2.aux)
 Package rerunfilecheck Info: File `personal_task_2.out' has not changed.
 (rerunfilecheck)             Checksum: 6BE0B1FF7406CAE331A770DAC0C09A3A;995.
  ) 
 Here is how much of TeX's memory you used:
- 51702 strings out of 476001
- 1295980 string characters out of 5793197
- 1979946 words of memory out of 5000000
+ 51707 strings out of 476001
+ 1296038 string characters out of 5793197
+ 1980947 words of memory out of 5000000
  71537 multiletter control sequences out of 15000+600000
  526839 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1426,10 +1427,10 @@ rm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texli
 ve/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on personal_task_2.pdf (5 pages, 257539 bytes).
+Output written on personal_task_2.pdf (6 pages, 266506 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
  77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
