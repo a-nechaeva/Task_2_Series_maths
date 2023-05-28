@@ -157,6 +157,7 @@
 \end{multline*}
 \underline{Ответ:} ряд  \textbf{сходится}  по признаку  д'Аламбера
 
+
 \newpage
 \subsection{б}
 \begin{equation}
@@ -178,6 +179,8 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 В силу сходимости рядов $\frac{9}{4n^4} $, $\frac{3}{n^2} \cdot  o\left( \frac{1}{n^3} \right)$ и $o\left( \frac{1}{n^6} \right)$ и согласно арифметическим свойствам рядов их сумма тоже сходится.\\
 
 \underline{Ответ:} ряд  \textbf{сходится}
+
+
 \newpage
 \subsection{в}
 \begin{equation}
@@ -207,6 +210,8 @@ g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x
 На промежутке $[1, \infty)$ выполнено неравенство $g'(x) < 0$ и\\ $\lim_{x \to \infty}\frac{(x+1)}{x^2-\ln x} = 0 $. Значит, по признаку Дирихле интеграл $\int_{1}^{\infty}\frac{\left(x+1\right)\cos 2x}{x^2-\ln x} \, dx$ сходится условно, вместе с ним условно сходится и ряд $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right) \cos 2n}{n^2-\ln n}$.
 \\\\
 \underline{Ответ:} ряд  \textbf{сходится условно}
+
+
 \newpage
 \subsection{г}
 \begin{equation}
@@ -229,6 +234,8 @@ g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x
 \end{equation}
 Следовательно, ряд расходится.\\\\
 \underline{Ответ:} ряд  \textbf{расходится}
+
+
 \newpage
 \subsection{д}
 \begin{equation}
@@ -249,8 +256,8 @@ g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x
 \begin{equation}
 \sum \limits_{n = 1}^{\infty}\int_0^1 x \cdot \cos nx \, dx
 \end{equation}
-\\
-\\
+
+
 \newpage
 \section{Область сходимости функционального ряда}
 \begin{equation}
@@ -296,7 +303,7 @@ g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x
 \end{equation*}
 Сходится при $n^{\frac{x}{3}} > n \to x > 3$, для других $x$ -- расходится.\\
 
-Рассмотрим поведение ряда в точках $x = \frac{\pi m}{2}, \, m \in N$. В точках вида $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in N$ ряд сходится абсолютно \hyperlink{pdf}{ (см. в начале решения)}, а сходимость ряда при четных значениях $m \in N$ доказана выше.\\\\
+Рассмотрим поведение ряда в точках $x = \frac{\pi m}{2}, \, m \in N$. В точках вида $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in  Z$ ряд сходится абсолютно \hyperlink{pdf}{ (см. в начале решения)}, а сходимость ряда при четных значениях $m \in N$ доказана выше.\\\\
 Область \textbf{условной} сходимости  $$x \in (0, + \infty)  \cup \left\{  \frac{\pi}{2} \cdot (2k + 1), \frac{\pi}{6} \cdot (2m + 1); \,\, k ,  m\in Z\right\}$$
 
 Исследуем ряд на абсолютную сходимость в точках  $x \neq \frac{\pi}{2} \cdot (2k + 1), \,\, k \in Z$  и $x \neq \frac{\pi}{6} \cdot (2m + 1), \,\, m \in Z$.
@@ -313,10 +320,56 @@ g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x
 Следовательно, при $x > 3$ ряд сходится \textbf{абсолютно}.\\
  
 \underline{Ответ:} при $x \in (0, + \infty)  \cup \left\{  \frac{\pi}{2} \cdot (2k + 1), \frac{\pi}{6} \cdot (2m + 1); \,\, k ,  m\in Z\right\}$  ряд сходится \textbf{условно}, при $x \in (3, + \infty)  \cup \left\{  \frac{\pi}{2} \cdot (2k + 1), \frac{\pi}{6} \cdot (2m + 1); \,\, k ,  m\in Z\right\}$  -- \textbf{абсолютно}.
+
+
+\newpage
+\section{Равномерная сходимость функциональной последовательности}
+\begin{equation*}
+f_n (x) = n \ln \left( 1+ \frac{1}{nx} \right)
+\end{equation*}
+
+Найдем функцию $\phi(x)$, к которой сходится данная последовательность при фиксированном $x$ и $n \to \infty$:
+\begin{equation}
+\phi(x) = \lim_{n \to \infty} f_n (x) = \lim_{n \to \infty} n \ln \left( 1+ \frac{1}{nx} \right) =
+\lim_{n \to \infty} n  \frac{1}{nx} = \frac{1}{x}
+\end{equation}
+а)  $x \in (0, 2)$. Докажем, что на этом промежутке последовательность сходится к предельной функции неравномерно. Последовательность функции $f_n (x)$ сходится к предельной функции неравномерно на промежутке $\langle a, b \rangle$, если существует $\epsilon_0 > 0$ такое, что какое бы значение $n_0 \in N$ мы ни взяли, можно найти значения $n \geq n_0, n \in N$ и $x_n \in \langle a, b \rangle$ такие, что $\left| f_n (x) - \phi(x)  \right| \geq \epsilon_0$. \\
+Возьмем $x_n = \frac{1}{n}$ и $\epsilon_0 = 1$. Тогда
+\begin{equation*}
+\left| f_n (x_n) - \phi(x_n)  \right| = n \left( \frac{1}{nx_n}- \ln \left( 1+ \frac{1}{nx_n} \right)  \right) =  
+ n \left( 1- \ln \left( 2 \right)  \right)
+\end{equation*}
+Так как последняя величина стремится к бесконечности, то, начиная с некоторого $n$, выполняется неравенство $ n \left( 1- \ln \left( 2 \right)  \right) > \epsilon_0 = 1$, следовательно, последовательность сходится к предельной функции \textbf{неравномерно}.\\
+
+б)  $x \in (2, + \infty)$. Равномерная сходимость будет доказана, если мы докажем, что $\sup \limits_{x \in (2, + \infty)} \left| f_n (x) - \phi(x)  \right| $ стремится к нулю, при $n \to \infty$.
+\begin{multline}
+\sup \limits_{x \in (2, + \infty) } \left| f_n (x) - \phi(x)  \right| = \sup \limits_{x \in (2, + \infty) } \left| n \ln \left( 1+ \frac{1}{nx} \right) - \frac{1}{x}  \right| =\\ = \sup \limits_{x \in (2, + \infty) }  n \left| \ln \left( 1+ \frac{1}{nx} \right) - \frac{1}{nx} \right| 
+= \sup \limits_{x \in (2, + \infty) }  n \left( \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right)
+\end{multline}
+Так как функция, стоящая под знаком супремума, дифференцируема на данном промежутке и, следовательно, непрерывна, то
+\begin{equation*}
+\sup \limits_{x \in (2, + \infty) } \left| f_n (x) - \phi(x)  \right| = \max \limits_{x \in (2, + \infty) }  n \left( \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right),
+\end{equation*}
+и этот максимум можно найти методами дифференциального исчисления:
+\begin{equation*}
+n \frac{d}{dx} \left(  \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right) = \frac{n}{nx^2+x}-\frac{1}{x^2} = 
+\frac{nx^2-nx^2-x}{nx^4+x^3} = \frac{-x}{nx^4+x^3} < 0
+\end{equation*}
+Функция монотонно убывает на промежутке  $x \in (2, + \infty)$. Заметим, что в точке $x = 2$,  $n \left( \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right)$ определена и при $x \in [2, + \infty)$ имеет тот же характер монотонности, что и $x \in (2, + \infty)$
+
+\begin{multline*}
+0 \leq \max \limits_{x \in (2, + \infty) }  n \left( \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right) \leq \max \limits_{x \in [2, + \infty) }  n \left( \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right) =\\
+=  n \left( \frac{1}{2n}- \ln \left( 1+ \frac{1}{2n} \right)  \right)
+\end{multline*}
+\begin{multline*}
+0 \leq \lim_{n \to \infty} \left| f_n (x) - \phi(x)  \right| \leq \lim_{n \to \infty} n \left( \frac{1}{2n}- \ln \left( 1+ \frac{1}{2n} \right)  \right) =
+ \frac{1}{2} - \lim_{n \to \infty} n \ln \left( 1+ \frac{1}{2n} \right)  = 0
+\end{multline*}
+Следовательно, при $x \in (2, + \infty)$ сходится \textbf{равномерно}.\\
+
+\underline{Ответ:}  а) \textbf{сходится неравномерно}, б) \textbf{сходится равномерно}.
+
 \end{document}
-
-
-
 
 
 
