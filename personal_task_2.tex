@@ -20,7 +20,7 @@
 \pagestyle{fancy}
 \fancypagestyle{style}{ % создание нового стиля style
 	\fancyhf{} % очистка колонтитулов
-	\fancyhead[LO, RE]{Сходимость рядов} % название документа наверху
+	\fancyhead[LO, RE]{} % название документа наверху
 	\fancyhead[RO, LE]{\leftmark} % название section наверху
 	\fancyfoot[RO, LE]{\thepage} % номер страницы справа внизу на нечетных и слева внизу на четных
 	\renewcommand{\headrulewidth}{0.25pt} % толщина линии сверху
@@ -157,7 +157,7 @@
 \end{multline*}
 \underline{Ответ:} ряд  \textbf{сходится}  по признаку  д'Аламбера
 
-
+\newpage
 \subsection{б}
 \begin{equation}
 \sum \limits_{n = 1}^{\infty} \left( arctg \frac{n+1}{n^2} - ln \left(1+ tg \frac{1}{n} \right) \right)^2
@@ -178,7 +178,7 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 В силу сходимости рядов $\frac{9}{4n^4} $, $\frac{3}{n^2} \cdot  o\left( \frac{1}{n^3} \right)$ и $o\left( \frac{1}{n^6} \right)$ и согласно арифметическим свойствам рядов их сумма тоже сходится.\\
 
 \underline{Ответ:} ряд  \textbf{сходится}
-
+\newpage
 \subsection{в}
 \begin{equation}
 \sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right) \cos 2n}{n^2-\ln n}
@@ -204,10 +204,10 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 \begin{equation}
 g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x \right)^2 }= - \frac{x^2+\ln x-1-\frac{1}{x} + 2x}{\left( x^2-\ln x \right)^2}
 \end{equation}
-На промежутке $[1, \infty)$ выполнено неравенство $g'(x) < 0$ и $\lim_{x \to \infty}\frac{(x+1)}{x^2-\ln x} = 0 $. Значит, по признаку Дирихле интеграл $\int_{1}^{\infty}\frac{\left(x+1\right)\cos 2x}{x^2-\ln x} \, dx$ сходится условно, вместе с ним условно сходится и ряд $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right) \cos 2n}{n^2-\ln n}$.
+На промежутке $[1, \infty)$ выполнено неравенство $g'(x) < 0$ и\\ $\lim_{x \to \infty}\frac{(x+1)}{x^2-\ln x} = 0 $. Значит, по признаку Дирихле интеграл $\int_{1}^{\infty}\frac{\left(x+1\right)\cos 2x}{x^2-\ln x} \, dx$ сходится условно, вместе с ним условно сходится и ряд $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right) \cos 2n}{n^2-\ln n}$.
 \\\\
 \underline{Ответ:} ряд  \textbf{сходится условно}
-
+\newpage
 \subsection{г}
 \begin{equation}
 \sum \limits_{n = 1}^{\infty} \left(\arccos \left(1-\frac{1}{n} \right) \right)^\frac{1}{n}
@@ -229,7 +229,7 @@ g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x
 \end{equation}
 Следовательно, ряд расходится.\\\\
 \underline{Ответ:} ряд  \textbf{расходится}
-
+\newpage
 \subsection{д}
 \begin{equation}
 \sum \limits_{n = 1}^{\infty} e^n \left( \frac{n}{n+1} \right)^{n^2+3n}
@@ -244,26 +244,74 @@ g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x
 \end{multline*}
 Следовательно, ряд расходится.\\\\
 \underline{Ответ:} ряд  \textbf{расходится}
+\newpage
 \subsection{e*}
 \begin{equation}
 \sum \limits_{n = 1}^{\infty}\int_0^1 x \cdot \cos nx \, dx
 \end{equation}
 \\
 \\
+\newpage
 \section{Область сходимости функционального ряда}
 \begin{equation}
 \sum \limits_{n = 1}^{\infty}\frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}
 \end{equation}
 1. Нахождение области абсолютной сходимости ряда\\
-Заметим, что все члены ряда определены для всех вещественных значений $x$, причем в точках  $x=\frac{\pi k}{2}, \,\, k \in Z$ все члены ряда равны нулю, поэьлму в этих точках ряд сходится (абсолютно).\\
+
+Заметим, что все члены ряда определены для всех вещественных значений $x$, причем при $\cos(nx) = 0$  и $\cos(3 nx) = 0$  все члены ряда равны нулю, поэтому \hypertarget{pdf}{в точках}  $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in Z$  и $x = \frac{\pi}{6} \cdot (2m + 1), \,\, m \in Z$ ряд сходится (абсолютно).\\
+
+
 Преобразуем числитель в сумму
-\begin{equation}
+\begin{equation*}
 \cos( nx) \cdot \cos (3nx) = \frac{1}{2}\left( \cos(2nx) + \cos(4nx) \right)
-\end{equation}
+\end{equation*}
 Тогда
-\begin{equation}
-\frac{\cos( 2nx) }{n^{\frac{x}{3}}}+\frac{ \cos (4nx) }{n^{\frac{x}{3}}}
-\end{equation}
+\begin{equation*}
+\frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}} = \frac{\cos( 2nx) }{2n^{\frac{x}{3}}}+\frac{ \cos (4nx) }{2n^{\frac{x}{3}}}
+\end{equation*}
+К каждому из полученных рядов применим признак Дирихле.\\
+Суммы 
+\begin{equation*}
+\left| \sum \limits_{n = 1}^{\infty} \cos( 2nx) \right| = \left| \frac{\sin (n x) \cos((n+1)x)}{\sin x} \right| =
+ \left| \frac{-\sin (x) +  \sin((2n+1)x)}{2\sin x} \right| \leq \frac{1}{ \left|\sin x\right|}
+\end{equation*}
+\begin{equation*}
+\left| \sum \limits_{n = 1}^{\infty} \cos( 4nx) \right| = \left| \frac{-\sin (2x) +  \sin(2x(2n+1))}{2\sin 2x} \right| \leq \frac{1}{ \left|\sin 2x\right|}
+\end{equation*}
+ограничены при всех значениях $n$ для каждого фиксированого значения $x \neq \pi k, \, k \in Z$ и $x \neq \frac{\pi m}{2}, \, m \in Z$.\\
+Заметим, что  последовательность $\frac{1}{n^{\frac{x}{3}}}$, монотонно убывает, стемясь к нулю, при $x > 0$. \\
+Тогда исходный ряд сходится условно по признаку Дирихле\\
+ при $x \in (0, + \infty) \backslash \left\{\pi k, \, \frac{\pi m}{2};  k, m \in N \right\} $. \\
+
+Исследуем сходимость ряда в точках $x = \pi k, \, k \in N$.
+\begin{equation*}
+\sum \limits_{n = 1}^{\infty} \cos( 2n\cdot \pi k) = \sum \limits_{n = 1}^{\infty} 1 = \infty
+\end{equation*}
+\begin{equation*}
+\sum \limits_{n = 1}^{\infty} \cos( 4n\cdot \pi k) = \sum \limits_{n = 1}^{\infty} 1 = \infty
+\end{equation*}
+Подставляя в исходную сумму ряда:
+\begin{equation*}
+ \frac{\cos( 2nx) }{2n^{\frac{x}{3}}}+\frac{ \cos (4nx) }{2n^{\frac{x}{3}}} = \frac{1 }{2n^{\frac{x}{3}}}+\frac{1 }{2n^{\frac{x}{3}}} = \frac{1 }{n^{\frac{x}{3}}}
+\end{equation*}
+Сходится при $n^{\frac{x}{3}} > n \to x > 3$, для других $x$ -- расходится.\\
+
+Рассмотрим поведение ряда в точках $x = \frac{\pi m}{2}, \, m \in N$. В точках вида $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in N$ ряд сходится абсолютно \hyperlink{pdf}{ (см. в начале решения)}, а сходимость ряда при четных значениях $m \in N$ доказана выше.\\
+Область \textbf{условной} сходимости теперь  $x \in (0, + \infty) $.\\\\
+
+Исследуем ряд на абсолютную сходимость в точках  $x \neq \frac{\pi}{2} \cdot (2k + 1), \,\, k \in Z$  и $x \neq \frac{\pi}{6} \cdot (2m + 1), \,\, m \in Z$.
+\begin{multline*}
+\left| \frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}  \right| =  \frac{\left|\cos( nx) \cdot \cos (3nx)\right| }{n^{\frac{x}{3}}}
+\geq   \frac{\left(\cos( nx) \cdot \cos (3nx)\right)^2 }{n^{\frac{x}{3}}} = \\
+= \frac{\left(1 + \cos(2 nx)\right) \cdot \left(1 +  \cos (6nx)\right)}{4n^{\frac{x}{3}}} =
+\frac{1}{4n^{\frac{x}{3}}}+\frac{ \cos(2 nx)}{4n^{\frac{x}{3}}}+\frac{\cos (6nx)}{4n^{\frac{x}{3}}}+\frac{\cos(2 nx) \cdot \cos (6nx)}{4n^{\frac{x}{3}}}
+\end{multline*}
+Сумма рядов выше расходится при $x \leq 3$.\\
+
+Далее, будем рассматривать $x > 3$.
+\begin{multline*}
+\left| \frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}  \right| =  
+\end{multline*}
 \end{document}
 
 
