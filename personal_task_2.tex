@@ -296,8 +296,8 @@ g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x
 \end{equation*}
 Сходится при $n^{\frac{x}{3}} > n \to x > 3$, для других $x$ -- расходится.\\
 
-Рассмотрим поведение ряда в точках $x = \frac{\pi m}{2}, \, m \in N$. В точках вида $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in N$ ряд сходится абсолютно \hyperlink{pdf}{ (см. в начале решения)}, а сходимость ряда при четных значениях $m \in N$ доказана выше.\\
-Область \textbf{условной} сходимости теперь  $x \in (0, + \infty) $.\\\\
+Рассмотрим поведение ряда в точках $x = \frac{\pi m}{2}, \, m \in N$. В точках вида $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in N$ ряд сходится абсолютно \hyperlink{pdf}{ (см. в начале решения)}, а сходимость ряда при четных значениях $m \in N$ доказана выше.\\\\
+Область \textbf{условной} сходимости  $$x \in (0, + \infty)  \cup \left\{  \frac{\pi}{2} \cdot (2k + 1), \frac{\pi}{6} \cdot (2m + 1); \,\, k ,  m\in Z\right\}$$
 
 Исследуем ряд на абсолютную сходимость в точках  $x \neq \frac{\pi}{2} \cdot (2k + 1), \,\, k \in Z$  и $x \neq \frac{\pi}{6} \cdot (2m + 1), \,\, m \in Z$.
 \begin{multline*}
@@ -306,12 +306,13 @@ g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x
 = \frac{\left(1 + \cos(2 nx)\right) \cdot \left(1 +  \cos (6nx)\right)}{4n^{\frac{x}{3}}} =
 \frac{1}{4n^{\frac{x}{3}}}+\frac{ \cos(2 nx)}{4n^{\frac{x}{3}}}+\frac{\cos (6nx)}{4n^{\frac{x}{3}}}+\frac{\cos(2 nx) \cdot \cos (6nx)}{4n^{\frac{x}{3}}}
 \end{multline*}
-Сумма рядов выше расходится при $x \leq 3$.\\
-
-Далее, будем рассматривать $x > 3$.
-\begin{multline*}
-\left| \frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}  \right| =  
-\end{multline*}
+Сумма рядов выше расходится при $x \leq 3$, так как расходится ряд $\frac{1}{4n^{\frac{x}{3}}}$. Далее, будем рассматривать $x > 3$.
+\begin{equation*}
+\left| \frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}  \right| \leq  \frac{1}{n^{\frac{x}{3}}}
+\end{equation*}
+Следовательно, при $x > 3$ ряд сходится \textbf{абсолютно}.\\
+ 
+\underline{Ответ:} при $x \in (0, + \infty)  \cup \left\{  \frac{\pi}{2} \cdot (2k + 1), \frac{\pi}{6} \cdot (2m + 1); \,\, k ,  m\in Z\right\}$  ряд сходится \textbf{условно}, при $x \in (3, + \infty)  \cup \left\{  \frac{\pi}{2} \cdot (2k + 1), \frac{\pi}{6} \cdot (2m + 1); \,\, k ,  m\in Z\right\}$  -- \textbf{абсолютно}.
 \end{document}
 
 

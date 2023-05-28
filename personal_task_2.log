@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  28 MAY 2023 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  28 MAY 2023 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1169,7 +1169,12 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count348
 \l__pdf_internal_box=\box115
 )
-(./personal_task_2.aux)
+(./personal_task_2.aux
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+9.
+ (c:/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
 \openout1 = `personal_task_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
@@ -1187,12 +1192,6 @@ LaTeX Font Info:    ... okay on input line 139.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 139.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-39.
-
-(c:/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
 LaTeX Font Info:    ... okay on input line 139.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
@@ -1435,12 +1434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--298
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--301
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
@@ -1450,25 +1444,24 @@ Overfull \hbox (37.33235pt too wide) detected at line 308
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
+
+ []
+
+
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [9] (./personal_task_2.aux)
-
-Package rerunfilecheck Warning: File `personal_task_2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `personal_task_2.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  6BE0B1FF7406CAE331A770DAC0C09A3A;995.
+Package rerunfilecheck Info: File `personal_task_2.out' has not changed.
+(rerunfilecheck)             Checksum: 6BE0B1FF7406CAE331A770DAC0C09A3A;995.
  ) 
 Here is how much of TeX's memory you used:
- 51700 strings out of 476001
- 1295913 string characters out of 5793197
- 1977863 words of memory out of 5000000
- 71528 multiletter control sequences out of 15000+600000
+ 51709 strings out of 476001
+ 1296033 string characters out of 5793197
+ 1978916 words of memory out of 5000000
+ 71537 multiletter control sequences out of 15000+600000
  526839 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,89p,768b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1489,10 +1482,10 @@ rm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texli
 ve/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on personal_task_2.pdf (9 pages, 272545 bytes).
+Output written on personal_task_2.pdf (9 pages, 274671 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 201 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
