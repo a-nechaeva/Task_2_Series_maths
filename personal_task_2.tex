@@ -369,6 +369,39 @@ n \frac{d}{dx} \left(  \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right)
 
 \underline{Ответ:}  а) \textbf{сходится неравномерно}, б) \textbf{сходится равномерно}.
 
+
+\newpage
+\section{Равномерная сходимость ряда}
+\subsection{а}
+\begin{equation*}
+\sum  \limits_{n = 1}^{\infty} \frac{\sin x \sin nx}{\sqrt{n + x}}
+\end{equation*}
+при $ x \in [0, + \infty)$.
+
+
+\newpage
+\section{Сумма функционального ряда}
+\begin{equation*}
+\frac{1}{2 \cdot 3} - \frac{x}{3 \cdot 4} + \frac{x^2}{4 \cdot 5} - ... + \frac{(-1)^n x^n}{(n+ 2) \cdot(n+ 3)} + ... = 
+\sum  \limits_{n = 0}^{\infty} \frac{(-1)^n x^n}{(n+ 2) \cdot(n+ 3)}
+\end{equation*}
+Найдем область сходимости данного ряда. Применяя признак  д'Аламбера, получим
+\begin{equation*}
+\lim_{n \to \infty} \left| \frac{u_{n+1} (x)}{u_{n} (x)} \right| =
+ \lim_{n \to \infty}  \left| \frac{(-1)^{n+1} x^{n+1}(n+ 2) (n+ 3)}{(n+ 3) (n+ 4) (-1)^n x^n} \right| = 
+ \lim_{n \to \infty}  \left| - x \right| = \left|  x \right|  < 1
+\end{equation*}
+По признаку д'Аламбера ряд сходится при $ x \in (-1, 1)$. Дополнительно исследуем сходимость в точках $\pm 1$. Применим признак Гаусса
+\begin{equation*}
+ \left| \frac{u_{n+1} (\pm 1)}{u_{n} (\pm 1)} \right| = \frac{n+ 2}{n+ 4} = 1 - \frac{2}{n} + O\left(\frac{1}{n^2} \right)
+\end{equation*}
+В признаке Гаусса $\mu = -2 < -1$, следовательно при $x = \pm 1$ ряд сходится.\\
+Область \textbf{сходимости} -- промежуток $[-1, 1]$.\\
+Ряд сходится к функции $f(x)$. По теореме о дифференцировании степенного ряда на промежутке $ (-1, 1)$ этот ряд можно родиффиренцировать почленно. Следовательно,
+
+\begin{equation*}
+f'(x) = 
+\end{equation*}
 \end{document}
 
 
