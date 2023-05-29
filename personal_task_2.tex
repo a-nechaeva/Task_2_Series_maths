@@ -199,15 +199,12 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 \frac{\left(n+1\right)}{n^2-\ln n} \geq \frac{\left(n+1\right)}{n^2+ n}=  \frac{1}{n}
 \end{equation}
 По признаку сравнения ряд $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right)}{n^2-\ln n}$ расходится, следовательно, $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right) \left| \cos 2n \right|}{n^2-\ln n}$ также расходится. \textbf{Абсолютной сходимости нет.}\\
-3. Исследуем его на \textit{условную сходимость} Рассмотрим соотвествующий несобственный интеграл. \\
+3. Исследуем ряд на \textit{условную сходимость}.
+Применим признак Дирихле, $a_n = \frac{n+1}{n^2 - \ln n}, \, b_n = \cos 2n$. $a_n$ - положительна и $\lim_{n \to \infty} a_n = 0$.
 \begin{equation}
-\int_{1}^{\infty}\frac{\left(x+1\right)\cos 2x}{x^2-\ln x} \, dx
+\left| B_n \right| = \left| \sum \limits_{k = 1}^{n}\cos 2k\right| = \left| \frac{\sin(n)\cos(n+1)}{\sin(1)} \right|  \leq \frac{1}{\sin(1)}
 \end{equation}
-Обозначим $f(x) =\cos 2x $ и $g(x) =\frac{(x+1)}{x^2-\ln x}$. Первообразная $F(x) = \frac{1}{2} \sin 2x$ ограничена и непрерывна на промежутке интегрирования. Установим монотонность убывания функции $g(x)$ для этого вычислим производную.
-\begin{equation}
-g'(x) = \frac{x^2-\ln x - \left( 2x - \frac{1}{x}\right) (x+1)}{\left( x^2-\ln x \right)^2 }= - \frac{x^2+\ln x-1-\frac{1}{x} + 2x}{\left( x^2-\ln x \right)^2}
-\end{equation}
-На промежутке $[1, \infty)$ выполнено неравенство $g'(x) < 0$ и\\ $\lim_{x \to \infty}\frac{(x+1)}{x^2-\ln x} = 0 $. Значит, по признаку Дирихле интеграл $\int_{1}^{\infty}\frac{\left(x+1\right)\cos 2x}{x^2-\ln x} \, dx$ сходится условно, вместе с ним условно сходится и ряд $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right) \cos 2n}{n^2-\ln n}$.
+Следовательно, ряд сходится условно по признаку Дирихле.
 \\\\
 \underline{Ответ:} ряд  \textbf{сходится условно}
 
@@ -377,6 +374,7 @@ n \frac{d}{dx} \left(  \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right)
 \sum  \limits_{n = 1}^{\infty} \frac{\sin x \sin nx}{\sqrt{n + x}}
 \end{equation*}
 при $ x \in [0, + \infty)$.
+Применим признак Дирихле. 
 
 
 \newpage
