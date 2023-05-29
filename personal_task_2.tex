@@ -427,7 +427,7 @@ A(n+3) + B(n+2) = n(-1)^n x^{n-1} \to\\
 \end{Vmatrix}
 = 3 \cdot \sum  \limits_{n = 0}^{\infty}   \frac{(-1)^n x^{n-1}}{n+ 3} - 2 \cdot \sum  \limits_{n = 0}^{\infty}   \frac{(-1)^n x^{n-1}}{n+ 2}
 \end{multline*}
-Заметим, что оба ряда напоминают разложение натурального логарифма в степенной ряд:
+Заметим, что оба ряда напоминают разложение натурального логарифма в степенной ряд, $\left| \alpha \right| < 1$:
 \begin{equation*}
 \ln(1+\alpha) = \alpha - \frac{\alpha^2}{2}+ ... + (-1)^{n-1}\frac{\alpha^n}{n} + ... = \sum  \limits_{n = 1}^{\infty}\frac{(-1)^{n-1} \alpha^n}{n}
 \end{equation*}
@@ -445,8 +445,8 @@ A(n+3) + B(n+2) = n(-1)^n x^{n-1} \to\\
 S = \sum  \limits_{n = 0}^{\infty}  \frac{n (-1)^n x^{n-1}}{(n+ 2) \cdot(n+ 3)} = 3 \cdot \frac{1}{x^4}\left(\ln(1+ x) - x + \frac{x^2}{2}  \right) + 2\cdot \frac{1}{x^3}\left(\ln(1+ x) - x \right) = \\
 = \frac{6\ln (1+x) - 6x - x^2 + 4x \ln (1+x)}{2x^4}
 \end{multline*}
-Сумма $S$  не существует при $x = -1$ и $x = 0$.\\
-Поэтому выразим сумму для $ x \in (-1, 1] \backslash \left\{0 \right\}$, через интегрирование $S$:
+Сумма $S$  не существует при $x = 0$.\\
+Поэтому выразим сумму для $ x \in (-1, 1) \backslash \left\{0 \right\}$, через интегрирование $S$:
 \begin{multline*}
 \widetilde{S } = \int S \, dx = \int  \frac{6\ln (1+x) - 6x - x^2 + 4x \ln (1+x)}{2x^4} \, dx = 3  \int  \frac{\ln (1+x)}{x^4}  \, dx -\\
 - 3\int  \frac{1}{x^3} \, dx - \frac{1}{2}\int  \frac{1}{x^2} \, dx + 2 \int  \frac{\ln (1+x)}{x^3} \, dx
@@ -480,6 +480,7 @@ du = \frac{dx}{1+x} & v = -\frac{1}{2x^2}
 + \frac{3}{2x^2} + \frac{1}{2x} + C=  -\frac{\ln (1+x)}{x^3} + \frac{1}{x^2} -\frac{\ln (1+x)}{x^2}+ \frac{1}{2x} +C=
 \frac{ x^2 + 2x -2(1+x) \ln(1+x)}{2x^3}+C
 \end{multline*}
+Так как степенной ряд сходится в точке $x=1$, то ... его сумма в этой точке также выражается $ f(x) =\frac{ x^2 + 2x -2(1+x) \ln(1+x)}{2x^3}$\\
  Сумма, к которой сходится ряд при $ x \in (-1, 1] \backslash \left\{0 \right\}$
 \begin{equation*}
  f(x) =\frac{ x^2 + 2x -2(1+x) \ln(1+x)}{2x^3}\\
