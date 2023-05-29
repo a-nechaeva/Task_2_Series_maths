@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  29 MAY 2023 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  29 MAY 2023 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1349,6 +1349,11 @@ Overfull \hbox (23.95195pt too wide) in paragraph at lines 200--204
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 200--204
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 206--210
 
  []
@@ -1478,8 +1483,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 395--399
+Underfull \hbox (badness 10000) in paragraph at lines 405--409
 
+ []
+
+
+Overfull \hbox (29.21056pt too wide) detected at line 426
+ []$[] \OT1/cmr/m/n/10 = [] = 3 \OMS/cmsy/m/n/10 ^^A [] [] ^^@ \OT1/cmr/m/n/10 
+2 \OMS/cmsy/m/n/10 ^^A [] []  $ 
  []
 
 
@@ -1498,7 +1509,7 @@ Here is how much of TeX's memory you used:
  71541 multiletter control sequences out of 15000+600000
  526839 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,89p,768b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,19n,89p,768b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dis
@@ -1516,7 +1527,7 @@ rm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texli
 ve/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on personal_task_2.pdf (13 pages, 287547 bytes).
+Output written on personal_task_2.pdf (13 pages, 291021 bytes).
 PDF statistics:
  238 PDF objects out of 1000 (max. 8388607)
  183 compressed objects within 2 object streams

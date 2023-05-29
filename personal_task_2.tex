@@ -198,7 +198,7 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 \begin{equation}
 \frac{\left(n+1\right)}{n^2-\ln n} \geq \frac{\left(n+1\right)}{n^2+ n}=  \frac{1}{n}
 \end{equation}
-По признаку сравнения ряд $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right)}{n^2-\ln n}$ расходится, следовательно, $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right) \left| \cos 2n \right|}{n^2-\ln n}$ также расходится. \textbf{Абсолютной сходимости нет.}\\
+По признаку сравнения ряд $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right)}{n^2-\ln n}$ расходится, следовательно, $\sum \limits_{n = 1}^{\infty} \frac{\left(n+1\right) \left| \cos 2n \right|}{n^2-\ln n}$ также расходится. \textbf{Абсолютной сходимости нет.}\\\\
 3. Исследуем ряд на \textit{условную сходимость}.
 Применим признак Дирихле, $a_n = \frac{n+1}{n^2 - \ln n}, \, b_n = \cos 2n$. $a_n$ - положительна и $\lim_{n \to \infty} a_n = 0$.
 \begin{equation}
@@ -374,7 +374,17 @@ n \frac{d}{dx} \left(  \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right)
 \sum  \limits_{n = 1}^{\infty} \frac{\sin x \sin nx}{\sqrt{n + x}}
 \end{equation*}
 при $ x \in [0, + \infty)$.
-Применим признак Дирихле. 
+Применим признак Дирихле. $a_n = \frac{1}{\sqrt{n + x}}, \, b_n = \sin x \sin nx$. Заметим, что $a_n$ -- положительна и $\lim_{n \to \infty} a_n = 0$. Далее покажем ограниченность модулей частичных сумм $ b_n$.
+\begin{equation*}
+\left| B_n \right| = \left| \sum  \limits_{k = 1}^{n}  \sin x \sin kx \right| = \left|  2 \cos \left(\frac{x}{2}\right) \sin \left(\frac{nx}{2}\right) \sin \left(\frac{x}{2}(n+1)\right) \right| \leq 2
+\end{equation*}
+Значит, по признаку Дирихле данный ряд сходится при $ x \in [0, + \infty)$.\\
+Исследуем на равномерную сходимость. 
+
+
+
+Докажем, что на этом промежутке ряд сходится неравномерно. Воспользуемся отрицанием критерия Коши: ряд $\sum  \limits_{n = 1}^{\infty} u_n (x)$ не равномерно на промежутке $\langle a, b \rangle$, если существует $\epsilon_0 > 0$ такое, что какое бы значение $n_0 \in N$ мы ни взяли, можно найти значения $m \geq n_0, m \in N, k \in Z_+$ и $x_n \in \langle a, b \rangle$ так, что $\left|  \sum  \limits_{n = m}^{m+k} u_n (x_n) \right| > \epsilon_0$. \\
+Возьмем $k = 0$ и $x_m = $. Тогда
 
 
 \newpage
@@ -401,6 +411,21 @@ n \frac{d}{dx} \left(  \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right)
 f'(x) = \sum  \limits_{n = 0}^{\infty} \frac{n (-1)^n x^{n-1}}{(n+ 2) \cdot(n+ 3)} = 
 0 - \frac{1}{3 \cdot 4} + \frac{2x}{4 \cdot 5} - \frac{3x^2}{5 \cdot 6}+... + \frac{n (-1)^n x^{n-1}}{(n+ 2) \cdot(n+ 3)} +...
 \end{equation*}
+Теперь рассмотрим сумму:
+\begin{multline*}
+S = \sum  \limits_{n = 0}^{\infty}  \frac{n (-1)^n x^{n-1}}{(n+ 2) \cdot(n+ 3)} =  \sum  \limits_{n = 0}^{\infty}   \frac{A}{n+ 2} +  \sum  \limits_{n = 0}^{\infty}   \frac{B}{n+ 3} =\\ =
+\begin{Vmatrix}
+A(n+3) + B(n+2) = n(-1)^n x^{n-1} \to\\
+\to 
+ \begin{cases}
+   A = -2(-1)^n x^{n-1}\\
+   B = 3(-1)^n x^{n-1}
+ \end{cases}
+\end{Vmatrix}
+= 3 \cdot \sum  \limits_{n = 0}^{\infty}   \frac{(-1)^n x^{n-1}}{n+ 3} - 2 \cdot \sum  \limits_{n = 0}^{\infty}   \frac{(-1)^n x^{n-1}}{n+ 2}
+\end{multline*}
+Заметим, что оба ряда напоминают разложение натурального логарифма в степенной ряд:
+
 \end{document}
 
 
