@@ -248,11 +248,40 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 \end{multline*}
 Следовательно, ряд расходится.\\\\
 \underline{Ответ:} ряд  \textbf{расходится}
+
+
 \newpage
 \subsection{e*}
 \begin{equation}
 \sum \limits_{n = 1}^{\infty}\int_0^1 x \cdot \cos nx \, dx
 \end{equation}
+Вычислим неопределенный интеграл:
+\begin{multline*}
+\int x \cdot \cos nx \, dx =
+\begin{Vmatrix}
+   u = x, \, dv =  \cos nx \, dx\\
+   du = dx, \, v = \frac{\sin nx}{n}
+ \end{Vmatrix}
+= \frac{x\sin nx}{n} - \int \frac{\sin nx}{n} \, dx =\\ = \frac{x\sin nx}{n} + \frac{\cos nx}{n^2} + C
+\end{multline*}
+Теперь можем найти определенный:
+\begin{equation*}
+\int\limits_{0}^{1} x \cdot \cos nx \, dx = \left. \frac{x\sin nx}{n} + \frac{\cos nx}{n^2} \right|_{0}^{1} =
+\frac{\sin n}{n} + \frac{\cos n}{n^2} - \frac{1}{n^2}
+\end{equation*}
+Запишем сумму ряда:
+\begin{equation}
+\sum \limits_{n = 1}^{\infty} \left(\frac{\sin n}{n} + \frac{\cos n - 1}{n^2} \right) = 
+\sum \limits_{n = 1}^{\infty} \frac{\sin n}{n} +\sum \limits_{n = 1}^{\infty}  \frac{\cos n}{n^2} - \sum \limits_{n = 1}^{\infty}  \frac{1}{n^2}
+\end{equation}
+1. Условная сходимость\\
+Ряды $\sum \limits_{n = 1}^{\infty} \frac{\sin n}{n}$ и $\sum \limits_{n = 1}^{\infty}  \frac{\cos n}{n^2}$ сходятся по признаку Дирихле, ряд $-\sum \limits_{n = 1}^{\infty}  \frac{1}{n^2}$ сходится вместе с эталонным рядом. \textbf{Условная} сходимость есть.\\
+2. Абсолютная сходимость\\
+\begin{multline*}
+ \left|\frac{\sin n}{n} + \frac{\cos n - 1}{n^2} \right| =  \left|\frac{2\cos\frac{n}{2}\sin \frac{n}{2}}{n} - \frac{\left(\sin\frac{n}{2} \right)^2}{n^2} \right| = \frac{\left|\sin\frac{n}{2} \right|}{n}  \left|2\cos\frac{n}{2} - \frac{\sin\frac{n}{2}}{n} \right| \geq\\
+\geq 
+\end{multline*}
+
 
 
 \newpage
@@ -266,9 +295,7 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 1. Нахождение области абсолютной сходимости ряда\\
 
 Заметим, что все члены ряда определены для всех вещественных значений $x$, причем при $\cos(nx) = 0$  и $\cos(3 nx) = 0$  все члены ряда равны нулю, поэтому \hypertarget{pdf}{в точках}  $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in Z$  и $x = \frac{\pi}{6} \cdot (2m + 1), \,\, m \in Z$ ряд сходится (абсолютно).\\
-
-
-Преобразуем числитель в сумму
+2. Преобразуем числитель в сумму
 \begin{equation*}
 \cos( nx) \cdot \cos (3nx) = \frac{1}{2}\left( \cos(2nx) + \cos(4nx) \right)
 \end{equation*}
@@ -313,7 +340,9 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 = \frac{\left(1 + \cos(2 nx)\right) \cdot \left(1 +  \cos (6nx)\right)}{4n^{\frac{x}{3}}} =
 \frac{1}{4n^{\frac{x}{3}}}+\frac{ \cos(2 nx)}{4n^{\frac{x}{3}}}+\frac{\cos (6nx)}{4n^{\frac{x}{3}}}+\frac{\cos(2 nx) \cdot \cos (6nx)}{4n^{\frac{x}{3}}}
 \end{multline*}
-Сумма рядов выше расходится при $x \leq 3$, так как расходится ряд $\frac{1}{4n^{\frac{x}{3}}}$. Далее, будем рассматривать $x > 3$.
+Сумма рядов выше расходится при $0 <x \leq 3$, так как расходится ряд $\frac{1}{4n^{\frac{x}{3}}}$, а $\frac{ \cos(2 nx)}{4n^{\frac{x}{3}}}, \,\frac{\cos (6nx)}{4n^{\frac{x}{3}}}, \, \frac{\cos(2 nx) \cdot \cos (6nx)}{4n^{\frac{x}{3}}}$  сходятся по признаку Дирихле.\\\\
+Исследуем при $x \leq 0$\\
+ Далее, будем рассматривать $x > 3$.
 \begin{equation*}
 \left| \frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}  \right| \leq  \frac{1}{n^{\frac{x}{3}}}
 \end{equation*}
