@@ -425,7 +425,23 @@ A(n+3) + B(n+2) = n(-1)^n x^{n-1} \to\\
 = 3 \cdot \sum  \limits_{n = 0}^{\infty}   \frac{(-1)^n x^{n-1}}{n+ 3} - 2 \cdot \sum  \limits_{n = 0}^{\infty}   \frac{(-1)^n x^{n-1}}{n+ 2}
 \end{multline*}
 Заметим, что оба ряда напоминают разложение натурального логарифма в степенной ряд:
-
+\begin{equation*}
+\ln(1+\alpha) = \alpha - \frac{\alpha^2}{2}+ ... + (-1)^{n-1}\frac{\alpha^n}{n} + ... = \sum  \limits_{n = 1}^{\infty}\frac{(-1)^{n-1} \alpha^n}{n}
+\end{equation*}
+Поочередно преобразуем суммы первого и второго рядов и выразим их через формулу логарифма:
+\begin{multline*}
+ \sum  \limits_{n = 0}^{\infty}   \frac{(-1)^n x^{n-1}}{n+ 3} =  \sum  \limits_{n = 3}^{\infty}   \frac{(-1)^{n-3} x^{n-4}}{n} =
+\frac{1}{x^4}\sum  \limits_{n = 3}^{\infty}   \frac{(-1)^{n-1} x^{n}}{n} = \\ = \frac{1}{x^4}\left(\ln(1+ x) - x + \frac{x^2}{2}  \right)
+\end{multline*}
+\begin{multline*}
+ \sum  \limits_{n = 0}^{\infty}   \frac{(-1)^n x^{n-1}}{n+ 2} =  \sum  \limits_{n = 2}^{\infty}   \frac{(-1)^{n-2} x^{n-3}}{n} =
+-\frac{1}{x^3}\sum  \limits_{n = 2}^{\infty}   \frac{(-1)^{n-1} x^{n}}{n} = \\ = -\frac{1}{x^3}\left(\ln(1+ x) - x \right)
+\end{multline*}
+Вернемся к выражению для $S$:
+\begin{multline*}
+S = \sum  \limits_{n = 0}^{\infty}  \frac{n (-1)^n x^{n-1}}{(n+ 2) \cdot(n+ 3)} = 3 \cdot \frac{1}{x^4}\left(\ln(1+ x) - x + \frac{x^2}{2}  \right) + 2\cdot \frac{1}{x^3}\left(\ln(1+ x) - x \right) = \\
+= \frac{6\ln (1+x) - 6x - x^2 + 4x \ln (1+x)}{2x^4}
+\end{multline*}
 \end{document}
 
 
