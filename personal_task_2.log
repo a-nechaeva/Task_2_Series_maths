@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  30 MAY 2023 00:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  8 JUN 2023 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -290,6 +290,17 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen149
 \Gm@dimlist=\toks19
 )
+(c:/texlive/2023/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(c:/texlive/2023/texmf-dist/tex/latex/nextpage/nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip50
+\afterepigraphskip=\skip51
+\epigraphwidth=\skip52
+\epigraphrule=\skip53
+)
 (c:/texlive/2023/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks20
@@ -299,19 +310,19 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip50
-\f@nch@O@elh=\skip51
-\f@nch@O@erh=\skip52
-\f@nch@O@olh=\skip53
-\f@nch@O@orh=\skip54
-\f@nch@O@elf=\skip55
-\f@nch@O@erf=\skip56
-\f@nch@O@olf=\skip57
-\f@nch@O@orf=\skip58
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
 )
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip59
+\@mathmargin=\skip63
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -371,8 +382,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen157
 \lineht@=\dimen158
 \@envbody=\toks24
-\multlinegap=\skip60
-\multlinetaggap=\skip61
+\multlinegap=\skip64
+\multlinetaggap=\skip65
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -395,9 +406,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks28
 \thm@notefont=\toks29
 \thm@headpunct=\toks30
-\thm@preskip=\skip62
-\thm@postskip=\skip63
-\thm@headsep=\skip64
+\thm@preskip=\skip66
+\thm@postskip=\skip67
+\thm@headsep=\skip68
 \dth@everypar=\toks31
 )
 (c:/texlive/2023/texmf-dist/tex/latex/cancel/cancel.sty
@@ -459,7 +470,7 @@ Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count280
 )
 Package caption Info: Option `figurewithin=none' requires the `newfloat' packag
-e on input line 53.
+e on input line 54.
 
 (c:/texlive/2023/texmf-dist/tex/latex/newfloat/newfloat.sty
 Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
@@ -927,9 +938,9 @@ tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip65
+\multirow@colwidth=\skip69
 \multirow@cntb=\count313
-\multirow@dima=\skip66
+\multirow@dima=\skip70
 \bigstrutjot=\dimen314
 )
 (c:/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
@@ -946,8 +957,8 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \page@free=\dimen317
 \premulticols=\dimen318
 \postmulticols=\dimen319
-\multicolsep=\skip67
-\multicolbaselineskip=\skip68
+\multicolsep=\skip71
+\multicolbaselineskip=\skip72
 \partial@page=\box70
 \last@line=\box71
 \maxbalancingoverflow=\dimen320
@@ -1139,11 +1150,11 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip69
+\Hy@SectionHShift=\skip73
 )
 (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip70
+\labelindent=\skip74
 \enit@outerparindent=\dimen328
 \enit@toks=\toks52
 \enit@inbox=\box114
@@ -1169,35 +1180,36 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count348
 \l__pdf_internal_box=\box115
 )
-(./personal_task_2.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-9.
- (c:/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+(./personal_task_2.aux)
 \openout1 = `personal_task_2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Info: Redefining \th on input line 139.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 140.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+40.
+
+(c:/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Info: Redefining \th on input line 140.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1263,20 +1275,20 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 139.
+ on input line 140.
 
-Package hyperref Info: Link coloring OFF on input line 139.
+Package hyperref Info: Link coloring OFF on input line 140.
 (./personal_task_2.out) (./personal_task_2.out)
 \@outlinefile=\write4
 \openout4 = `personal_task_2.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 140
+LaTeX Font Info:    Trying to load font information for U+msa on input line 141
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 140
+LaTeX Font Info:    Trying to load font information for U+msb on input line 141
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1303,22 +1315,22 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 141.
+ine 142.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 141.
+ine 142.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 141.
+ine 142.
 
 
-Overfull \hbox (32.59254pt too wide) detected at line 157
+Overfull \hbox (32.59254pt too wide) detected at line 160
  []$[] \OT1/cmr/m/n/10 = [] [][] = [] [][] = [] [][] =$ 
  []
 
@@ -1328,7 +1340,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
@@ -1338,23 +1350,23 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 188--193
+Underfull \hbox (badness 10000) in paragraph at lines 191--196
 
  []
 
 
-Overfull \hbox (23.95195pt too wide) in paragraph at lines 200--204
+Overfull \hbox (23.95195pt too wide) in paragraph at lines 203--207
 \T2A/cmr/m/n/10 ѕо при-зна-ку срав-не-ни€ р€д $[] []$ рас-хо-дит-с€, сле-до-ва-
 тель-но, $[] []$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--204
+Underfull \hbox (badness 10000) in paragraph at lines 203--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--210
+Underfull \hbox (badness 10000) in paragraph at lines 209--213
 
  []
 
@@ -1364,12 +1376,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [4]
-Overfull \hbox (38.47554pt too wide) detected at line 227
+Overfull \hbox (38.47554pt too wide) detected at line 230
  []$[]   [] [] [] [] \OT1/cmr/m/n/10 = [] [] = [] [] = [] [] = [] [] = 0$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--234
+Underfull \hbox (badness 10000) in paragraph at lines 234--237
 
  []
 
@@ -1379,7 +1391,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 248--251
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
 
  []
 
@@ -1389,13 +1401,8 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 276--280
+Underfull \hbox (badness 10000) in paragraph at lines 279--283
 
- []
-
-
-Overfull \hbox (1.89713pt too wide) detected at line 283
- []$[]   [] \OT1/cmr/m/n/10 = [] = [] [] \OMS/cmsy/m/n/10 ^^U$ 
  []
 
 
@@ -1486,18 +1493,44 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [11]
+Overfull \hbox (11.59695pt too wide) in paragraph at lines 423--427
+\T2A/cmr/m/n/10 ѕоследовательность $[]$ -- мо-но-тон-на при каж-дом $\OML/cmm/m
+/it/10 x \OMS/cmsy/m/n/10 ^^U \OT1/cmr/m/n/10 0$\T2A/cmr/m/n/10 , так как $[][]
+ \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--427
+
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 437--441
+Underfull \hbox (badness 10000) in paragraph at lines 432--435
 
  []
 
 
-Overfull \hbox (29.21056pt too wide) detected at line 458
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 459--463
+
+ []
+
+
+Overfull \hbox (29.21056pt too wide) detected at line 480
  []$[] \OT1/cmr/m/n/10 = [] = 3 \OMS/cmsy/m/n/10 ^^A [] [] ^^@ \OT1/cmr/m/n/10 
 2 \OMS/cmsy/m/n/10 ^^A [] []  $ 
  []
@@ -1507,52 +1540,35 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[13]
-Overfull \hbox (11.17868pt too wide) detected at line 476
+[14]
+Overfull \hbox (11.17868pt too wide) detected at line 498
  []$[]  \OML/cmm/m/it/10 S \OT1/cmr/m/n/10 = [] [] = 3 \OMS/cmsy/m/n/10 ^^A [] 
 [] \OT1/cmr/m/n/10 + 2 \OMS/cmsy/m/n/10 ^^A [] [] \OT1/cmr/m/n/10 =$ 
  []
 
 
-Overfull \hbox (4.91997pt too wide) detected at line 482
+Overfull \hbox (4.91997pt too wide) detected at line 504
  []$[]  [] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 S dx \OT1/cmr/m/n/10 = [] [] \
 OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = 3 [] [] \OML/cmm/m/it/10 dx\OMS/cmsy/m/n/1
 0 ^^@$ 
  []
 
 
-Overfull \hbox (24.31128pt too wide) detected at line 493
+Overfull \hbox (24.31128pt too wide) detected at line 515
  []$[]   [] [] \OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [] = \OMS/cmsy/m/n/10 ^^@[
 ] \OT1/cmr/m/n/10 + [] [] [] \OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 =$ 
  []
 
 
-Overfull \hbox (12.52086pt too wide) detected at line 493
+Overfull \hbox (12.52086pt too wide) detected at line 515
  []$[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[] \OT1/cmr/m/n/10 + [] [] = \OMS/
 cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 +$ 
  []
 
 
-Overfull \hbox (24.31128pt too wide) detected at line 504
+Overfull \hbox (24.31128pt too wide) detected at line 526
  []$[]   [] [] \OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [] = \OMS/cmsy/m/n/10 ^^@[
 ] \OT1/cmr/m/n/10 + [] [] [] \OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 =$ 
- []
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
-
-[14]
-Overfull \hbox (49.49768pt too wide) detected at line 511
- []$[] \OT1/cmr/m/n/10 + [] + [] + \OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = \OMS/cm
-sy/m/n/10 ^^@[] \OT1/cmr/m/n/10 + [] \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m/n/10 + 
-[] + \OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = [] + \OML/cmm/m/it/10 C  $ 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 542
- []$[]   [] [] \OT1/cmr/m/n/10 = []  $ 
  []
 
 
@@ -1561,21 +1577,44 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [15]
+Overfull \hbox (49.49768pt too wide) detected at line 533
+ []$[] \OT1/cmr/m/n/10 + [] + [] + \OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = \OMS/cm
+sy/m/n/10 ^^@[] \OT1/cmr/m/n/10 + [] \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m/n/10 + 
+[] + \OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = [] + \OML/cmm/m/it/10 C  $ 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 564
+ []$[]   [] [] \OT1/cmr/m/n/10 = []  $ 
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[16] (./personal_task_2.aux)
-Package rerunfilecheck Info: File `personal_task_2.out' has not changed.
-(rerunfilecheck)             Checksum: C2BAF73CEFC7C16A4308D829019622B1;2064.
+[16]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
+
+[17] (./personal_task_2.aux)
+
+Package rerunfilecheck Warning: File `personal_task_2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `personal_task_2.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  286BEA1C7A252BC114C4BB1BEE355591;2130.
  ) 
 Here is how much of TeX's memory you used:
- 51726 strings out of 476001
- 1296198 string characters out of 5793197
- 1984916 words of memory out of 5000000
- 71541 multiletter control sequences out of 15000+600000
- 526839 words of font info for 68 fonts, out of 8000000 for 9000
+ 51819 strings out of 476001
+ 1298177 string characters out of 5793197
+ 1986413 words of memory out of 5000000
+ 71619 multiletter control sequences out of 15000+600000
+ 528384 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,89p,768b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
@@ -1587,18 +1626,19 @@ pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
 m/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texl
 ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/texmf-dist/
-fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type
-1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
-m-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
-rm0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
-><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texli
-ve/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/te
-xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on personal_task_2.pdf (16 pages, 310303 bytes).
+exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf
+-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/texmf-dist/font
+s/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
+blic/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-su
+per/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm09
+00.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:
+/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2
+023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-
+dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on personal_task_2.pdf (17 pages, 323242 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

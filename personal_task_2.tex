@@ -6,6 +6,7 @@
 \usepackage{indentfirst} % красная строка в первом параграфе в главе
 % Отображение страниц
 \usepackage{geometry} % размеры листа и отступов
+\usepackage{epigraph} % эпиграф -- использовала для оформления цитаты
 \geometry{
 	left=12mm,
 	top=25mm,
@@ -129,7 +130,7 @@
 		\vspace*{5ex}
 		
 		{\large 
-			\underline{Преподаватель}: \textit{<ФИО ПРЕПОДАВАТЕЛЯ>}
+			\underline{Преподаватель}: \textit{Бойцев А.А.}
 		}
 	\end{flushright}	
 	\newpage
@@ -140,6 +141,8 @@
 	\titlePage
 	\pagestyle{style}
 \newpage
+
+\epigraph{Работайте, работайте — а понимание придёт потом.}{Жан Ле Рон Д’Аламбер}
 \section{ Сходимость числовых рядов}
 Исследовать ряды на сходимость. Для знакопеременных рядов исследовать абсолютную и условную сходимость.	
 
@@ -148,14 +151,14 @@
 \sum \limits_{n = 1}^{\infty} \frac{\left(2n\right)!!}{n^{n+\frac{3}{2}}} \cdot ln \frac{2^n+1}{2^n}
 \end{equation}
 1. Ряд знакопостоянный\\
-2. Воспрользуемся признаком д'Аламбера в предельной форме
+2. Воспрользуемся признаком Д'Аламбера в предельной форме
 \begin{multline*}
 \rho = \lim_{n \to \infty} \frac{a_{n+1}}{a_n} = \lim_{n \to \infty} \frac{\left(2n+2\right)!! \cdot ln\frac{2^{n+1}+1}{2^{n+1}}\cdot n^{n+\frac{3}{2}}}{\left(2n\right)!! \cdot ln\frac{2^{n}+1}{2^{n}}\cdot (n+1)^{n + 1+\frac{3}{2}}} =\\
 =  \lim_{n \to \infty} \frac{\left(2n\right)!!\cdot \left(2n+2\right) \cdot ln\left(1 + \frac{1}{2^{n+1}}\right)\cdot n^{n+\frac{3}{2}}}{\left(2n\right)!! \cdot (n+1)\cdot ln\left(1 + \frac{1}{2^{n}}\right)\cdot (n+1)^{n + \frac{3}{2}}} =
  \lim_{n \to \infty} \frac{ 2\cdot  \frac{1}{2^{n+1}}\cdot n^{n+\frac{3}{2}}}{ \frac{1}{2^{n}}\cdot (n+1)^{n + \frac{3}{2}}}=\\ =\lim_{n \to \infty} \left(\frac{n}{n+1} \right)^{n+\frac{3}{2}}= \lim_{n \to \infty} \left(1 - \frac{1}{n+1} \right)^{n+\frac{3}{2}}=\lim_{n \to \infty}  \left( \left(1 - \frac{1}{n+1} \right)^{-(n+1) } \right)^{-\frac{n+\frac{3}{2}}{n+1} }=\\
 = \frac{1}{e} < 1
 \end{multline*}
-\underline{Ответ:} ряд  \textbf{сходится}  по признаку  д'Аламбера
+\underline{Ответ:} ряд  \textbf{сходится}  по признаку  Д'Аламбера
 
 
 \newpage
@@ -278,16 +281,13 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 Ряды $\sum \limits_{n = 1}^{\infty} \frac{\sin n}{n}$ и $\sum \limits_{n = 1}^{\infty}  \frac{\cos n}{n^2}$ сходятся по признаку Дирихле, ряд $-\sum \limits_{n = 1}^{\infty}  \frac{1}{n^2}$ сходится вместе с эталонным рядом. \textbf{Условная} сходимость есть.\\
 2. Абсолютная сходимость\\
 \begin{multline*}
- \left|\frac{\sin n}{n} + \frac{\cos n - 1}{n^2} \right| =  \left|\frac{2\cos\frac{n}{2}\sin \frac{n}{2}}{n} - \frac{\left(\sin\frac{n}{2} \right)^2}{n^2} \right| = \frac{\left|\sin\frac{n}{2} \right|}{n}  \left|2\cos\frac{n}{2} - \frac{\sin\frac{n}{2}}{n} \right| \geq\\
-\geq 
+\frac{1}{n} \left|\sin n + \frac{\cos n - 1}{n} \right| \geq   \\
 \end{multline*}
 
 
 
 \newpage
 \section{Область сходимости функционального ряда}
-
-\textbf{!!!В РАСХОДИМОСТИ РЯДОВ НУЖНО ДОКАЗАТЬ, ЧТО РАСХОДИТСЯ ИЗ СУММЫ ТОЛЬКО 1!!!}
 
 \begin{equation}
 \sum \limits_{n = 1}^{\infty}\frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}
@@ -411,12 +411,34 @@ n \frac{d}{dx} \left(  \frac{1}{nx}- \ln \left( 1+ \frac{1}{nx} \right)  \right)
 \left| B_n \right| = \left| \sum  \limits_{k = 1}^{n}  \sin x \sin kx \right| = \left|  2 \cos \left(\frac{x}{2}\right) \sin \left(\frac{nx}{2}\right) \sin \left(\frac{x}{2}(n+1)\right) \right| \leq 2
 \end{equation*}
 Значит, по признаку Дирихле данный ряд сходится при $ x \in [0, + \infty)$.\\
-Исследуем на равномерную сходимость. 
+Исследуем на равномерную сходимость. \\
+При $x = 2 \pi k, \, k \in N$ все частичные суммы равны нулю, следовательно, ограничены по модулю $C=2$.
 
+\begin{multline*}
+\exists C= 2 \forall n \in N :  \left| \sum  \limits_{k = 1}^{n}  \sin x \sin kx \right| = \\ =
+\begin{cases}
+   \left|  2 \cos \left(\frac{x}{2}\right) \sin \left(\frac{nx}{2}\right) \sin \left(\frac{x}{2}(n+1)\right) \right| \leq 2,  & \, x \neq 2\pi m, \, m \in N \\
+   0 \leq 2, &\, x = 2\pi m, m \in N.
+ \end{cases}
+\end{multline*}
+Последовательность $\frac{1}{\sqrt{n + x}}$ -- монотонна при каждом $x \geq 0$, так как $\left(\sqrt{n + x} \right)' = \frac{1}{2\sqrt{n + x}} > 0$.\\
+Так как $\left|\frac{1}{\sqrt{n + x}} \right| \leq \frac{1}{\sqrt{n}} \xrightarrow{n \to \infty} 0$ , то $\frac{1}{\sqrt{n + x}} \rightrightarrows 0$ по Д.У.\\
+Значит, по признаку Дирихле \textbf{ряд сходится равномерно} при  $ x \in [0, + \infty)$.\\\\
+
+\newpage
+\subsection{б}
+\begin{equation*}
+\sum  \limits_{n = 1}^{\infty}(-1)^n \ln \frac{3+x\sqrt{n^5}}{2+x\sqrt{n^5}}
+\end{equation*}
+ $ E_1 = (1 , + \infty), \,  E_2 = (0 , + \infty)$.\\
+1. \\
 
 
 Докажем, что на этом промежутке ряд сходится неравномерно. Воспользуемся отрицанием критерия Коши: ряд $\sum  \limits_{n = 1}^{\infty} u_n (x)$ не равномерно на промежутке $\langle a, b \rangle$, если существует $\epsilon_0 > 0$ такое, что какое бы значение $n_0 \in N$ мы ни взяли, можно найти значения $m \geq n_0, m \in N, k \in Z_+$ и $x_n \in \langle a, b \rangle$ так, что $\left|  \sum  \limits_{n = m}^{m+k} u_n (x_n) \right| > \epsilon_0$. \\
-Возьмем $k = 0$ и $x_m = $. Тогда
+Возьмем $k = 0$ и $x_m = \frac{\pi m}{2}$. Тогда
+\begin{equation*}
+\left|  \sum  \limits_{n = m}^{m+k} u_n (x_n) \right|  = \left| \frac{\sin  \frac{\pi m}{2} \sin  \frac{\pi m}{2}}{\sqrt{1 +  \frac{\pi m}{2}}}\right|  =  \left| \frac{1}{\sqrt{1 +  \frac{\pi m}{2}}}\right| 
+\end{equation*}
 
 
 \newpage
