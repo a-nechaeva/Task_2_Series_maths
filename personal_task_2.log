@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  9 JUN 2023 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.23)  11 JUN 2023 22:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1420,12 +1420,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--299
  []
 
 
-Overfull \hbox (3.29062pt too wide) detected at line 314
+Overfull \hbox (3.29062pt too wide) detected at line 313
 [] \OT1/cmr/m/n/10 = [] = [] \OMS/cmsy/m/n/10 ^^T []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--322
+Underfull \hbox (badness 10000) in paragraph at lines 316--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
 
  []
 
@@ -1435,27 +1440,27 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 333--335
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 
  []
 
 
-Overfull \hbox (37.33235pt too wide) detected at line 345
+Overfull \hbox (37.33235pt too wide) detected at line 349
  []$[] \OT1/cmr/m/n/10 = [] = [] + [] + [] + []  $ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--348
+Underfull \hbox (badness 10000) in paragraph at lines 349--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--352
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
 
  []
 
@@ -1465,12 +1470,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [9]
-Overfull \hbox (9.8401pt too wide) in paragraph at lines 357--357
+Overfull \hbox (9.8401pt too wide) in paragraph at lines 361--361
 []\T2A/cmr/bx/n/14.4 Равномерная схо-ди-мость функ-ци-о-наль-ной по-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--374
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
 
  []
 
@@ -1480,21 +1485,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [10]
-Overfull \hbox (49.33539pt too wide) detected at line 398
+Overfull \hbox (49.33539pt too wide) detected at line 402
  []$[]  \OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^T [] [] ^^T [] \OML/cmm/m/it/10 n 
 [] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^@ [] \OML/cmm/m/it/10 n [] [] \OT1/c
 mr/m/n/10 = 0  $ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--400
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
-<./РєРѕС‚_2.jpg, id=140, 737.00343pt x 439.6425pt>
+<./РєРѕС‚_2.jpg, id=138, 737.00343pt x 439.6425pt>
 File: ./РєРѕС‚_2.jpg Graphic file (type jpg)
 <use ./РєРѕС‚_2.jpg>
-Package pdftex.def Info: ./РєРѕС‚_2.jpg  used on input line 403.
+Package pdftex.def Info: ./РєРѕС‚_2.jpg  used on input line 407.
 (pdftex.def)             Requested size: 292.6387pt x 174.56586pt.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1502,14 +1507,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [11 <./РєРѕС‚_2.jpg>]
-Overfull \hbox (11.59695pt too wide) in paragraph at lines 430--435
+Overfull \hbox (11.59695pt too wide) in paragraph at lines 434--439
 \T2A/cmr/m/n/10 Последовательность $[]$ -- мо-но-тон-на при каж-дом $\OML/cmm/m
 /it/10 x \OMS/cmsy/m/n/10 ^^U \OT1/cmr/m/n/10 0$\T2A/cmr/m/n/10 , так как $[][]
  \OT1/cmr/m/n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--435
+Underfull \hbox (badness 10000) in paragraph at lines 434--439
 
  []
 
@@ -1519,7 +1524,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [12]
-Overfull \hbox (34.4128pt too wide) in paragraph at lines 440--443
+Overfull \hbox (34.4128pt too wide) in paragraph at lines 444--447
 \T2A/cmr/m/n/10 Исследуем на схо-ди-мость при фик-си-ро-ван-ном $\OML/cmm/m/it/
 10 x \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 
 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 +\OMS/cmsy/m/n/10 1\OT1/cmr/m/n/10 )$\T2A/
@@ -1528,12 +1533,12 @@ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--443
+Underfull \hbox (badness 10000) in paragraph at lines 444--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--451
+Underfull \hbox (badness 10000) in paragraph at lines 453--455
 
  []
 
@@ -1543,12 +1548,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 476--480
+Underfull \hbox (badness 10000) in paragraph at lines 480--484
 
  []
 
 
-Overfull \hbox (29.21056pt too wide) detected at line 497
+Overfull \hbox (29.21056pt too wide) detected at line 501
  []$[] \OT1/cmr/m/n/10 = [] = 3 \OMS/cmsy/m/n/10 ^^A [] [] ^^@ \OT1/cmr/m/n/10 
 2 \OMS/cmsy/m/n/10 ^^A [] []  $ 
  []
@@ -1559,32 +1564,32 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [14]
-Overfull \hbox (11.17868pt too wide) detected at line 515
+Overfull \hbox (11.17868pt too wide) detected at line 519
  []$[]  \OML/cmm/m/it/10 S \OT1/cmr/m/n/10 = [] [] = 3 \OMS/cmsy/m/n/10 ^^A [] 
 [] \OT1/cmr/m/n/10 + 2 \OMS/cmsy/m/n/10 ^^A [] [] \OT1/cmr/m/n/10 =$ 
  []
 
 
-Overfull \hbox (4.91997pt too wide) detected at line 521
+Overfull \hbox (4.91997pt too wide) detected at line 525
  []$[]  [] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 S dx \OT1/cmr/m/n/10 = [] [] \
 OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = 3 [] [] \OML/cmm/m/it/10 dx\OMS/cmsy/m/n/1
 0 ^^@$ 
  []
 
 
-Overfull \hbox (24.31128pt too wide) detected at line 532
+Overfull \hbox (24.31128pt too wide) detected at line 536
  []$[]   [] [] \OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [] = \OMS/cmsy/m/n/10 ^^@[
 ] \OT1/cmr/m/n/10 + [] [] [] \OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 =$ 
  []
 
 
-Overfull \hbox (12.52086pt too wide) detected at line 532
+Overfull \hbox (12.52086pt too wide) detected at line 536
  []$[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[] \OT1/cmr/m/n/10 + [] [] = \OMS/
 cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 +$ 
  []
 
 
-Overfull \hbox (24.31128pt too wide) detected at line 543
+Overfull \hbox (24.31128pt too wide) detected at line 547
  []$[]   [] [] \OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [] = \OMS/cmsy/m/n/10 ^^@[
 ] \OT1/cmr/m/n/10 + [] [] [] \OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 =$ 
  []
@@ -1595,14 +1600,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [15]
-Overfull \hbox (49.49768pt too wide) detected at line 550
+Overfull \hbox (49.49768pt too wide) detected at line 554
  []$[] \OT1/cmr/m/n/10 + [] + [] + \OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = \OMS/cm
 sy/m/n/10 ^^@[] \OT1/cmr/m/n/10 + [] \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m/n/10 + 
 [] + \OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = [] + \OML/cmm/m/it/10 C  $ 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 581
+Underfull \hbox (badness 10000) detected at line 585
  []$[]   [] [] \OT1/cmr/m/n/10 = []  $ 
  []
 
@@ -1612,10 +1617,10 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
 [16]
-<./РєРѕС‚_3.jpg, id=169, 737.00343pt x 436.63126pt>
+<./РєРѕС‚_3.jpg, id=167, 737.00343pt x 436.63126pt>
 File: ./РєРѕС‚_3.jpg Graphic file (type jpg)
 <use ./РєРѕС‚_3.jpg>
-Package pdftex.def Info: ./РєРѕС‚_3.jpg  used on input line 584.
+Package pdftex.def Info: ./РєРѕС‚_3.jpg  used on input line 588.
 (pdftex.def)             Requested size: 344.27837pt x 203.96417pt.
 
 
@@ -1628,8 +1633,8 @@ Package rerunfilecheck Info: File `personal_task_2.out' has not changed.
 (rerunfilecheck)             Checksum: 286BEA1C7A252BC114C4BB1BEE355591;2130.
  ) 
 Here is how much of TeX's memory you used:
- 51869 strings out of 476001
- 1299011 string characters out of 5793197
+ 51868 strings out of 476001
+ 1299008 string characters out of 5793197
  1986468 words of memory out of 5000000
  71661 multiletter control sequences out of 15000+600000
  529258 words of font info for 75 fonts, out of 8000000 for 9000
@@ -1654,10 +1659,10 @@ per/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm09
 023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2023/texmf-
 dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/fonts
 /type1/public/cm-super/sfti1200.pfb>
-Output written on personal_task_2.pdf (17 pages, 548574 bytes).
+Output written on personal_task_2.pdf (17 pages, 547994 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
  132 words of extra memory for PDF output out of 10000 (max. 10000000)
 

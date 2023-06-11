@@ -295,10 +295,9 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 \begin{equation}
 \sum \limits_{n = 1}^{\infty}\frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}
 \end{equation}
-1. Нахождение области абсолютной сходимости ряда\\
+1. Нахождение области условной сходимости ряда\\
 
-Заметим, что все члены ряда определены для всех вещественных значений $x$, причем при $\cos(nx) = 0$  и $\cos(3 nx) = 0$  все члены ряда равны нулю, поэтому \hypertarget{pdf}{в точках}  $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in Z$  и $x = \frac{\pi}{6} \cdot (2m + 1), \,\, m \in Z$ ряд сходится (абсолютно).\\
-2. Преобразуем числитель в сумму
+ Преобразуем числитель в сумму
 \begin{equation*}
 \cos( nx) \cdot \cos (3nx) = \frac{1}{2}\left( \cos(2nx) + \cos(4nx) \right)
 \end{equation*}
@@ -333,10 +332,15 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 \end{equation*}
 Сходится при $n^{\frac{x}{3}} > n \to x > 3$, для других $x$ -- расходится.\\
 
-Рассмотрим поведение ряда в точках $x = \frac{\pi m}{2}, \, m \in N$. В точках вида $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in  Z$ ряд сходится абсолютно \hyperlink{pdf}{ (см. в начале решения)}, а сходимость ряда при четных значениях $m \in N$ доказана выше.\\\\
-Область \textbf{условной} сходимости  $$x \in (0, + \infty)  \cup \left\{  \frac{\pi}{2} \cdot (2k + 1), \frac{\pi}{6} \cdot (2m + 1); \,\, k ,  m\in Z\right\}$$
+Рассмотрим поведение ряда в точках $x = \frac{\pi m}{2}, \, m \in N$. Сходимость ряда при четных значениях $m \in N$ доказана выше. В точках вида $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in  Z_+$:
+\begin{equation*}
+\frac{\cos( n \pi \cdot (2k + 1)) }{2n^{\frac{x}{3}}}+\frac{ \cos (2 n \pi\cdot (2k + 1)) }{2n^{\frac{x}{3}}} = \frac{(-1)^n }{2n^{\frac{x}{3}}}+\frac{1 }{2n^{\frac{x}{3}}}
+\end{equation*}
+Ряд с общим членом $\frac{(-1)^n }{2n^{\frac{x}{3}}}$ сходится по признаку Лейбница при $x > 0$, а $\frac{1 }{2n^{\frac{x}{3}}}$ -- при $x > 3$, значит, их сумма сходится при $x > 3$. Ряд сходится при $x = \frac{\pi}{2} \cdot (2k + 1), \,\, k \in  N$ и расходится при $x = \frac{\pi}{2}$.\\\\
 
-Исследуем ряд на абсолютную сходимость в точках  $x \neq \frac{\pi}{2} \cdot (2k + 1), \,\, k \in Z$  и $x \neq \frac{\pi}{6} \cdot (2m + 1), \,\, m \in Z$.
+Область \textbf{условной} сходимости  $$x \in (0, + \infty) \backslash  \left\{  \frac{\pi}{2}\right\}$$
+
+Исследуем ряд на абсолютную сходимость.
 \begin{multline*}
 \left| \frac{\cos( nx) \cdot \cos (3nx) }{n^{\frac{x}{3}}}  \right| =  \frac{\left|\cos( nx) \cdot \cos (3nx)\right| }{n^{\frac{x}{3}}}
 \geq   \frac{\left(\cos( nx) \cdot \cos (3nx)\right)^2 }{n^{\frac{x}{3}}} = \\
@@ -350,7 +354,7 @@ ln \left(1 +  \frac {1}{n}  + o\left( \frac{1}{n^3} \right)\right) =  \frac {1}{
 \end{equation*}
 Следовательно, при $x > 3$ ряд сходится \textbf{абсолютно}.\\
  
-\underline{Ответ:} при $x \in (0, + \infty)  \cup \left\{  \frac{\pi}{2} \cdot (2k + 1), \frac{\pi}{6} \cdot (2m + 1); \,\, k ,  m\in Z\right\}$  ряд сходится \textbf{условно}, при $x \in (3, + \infty)  \cup \left\{  \frac{\pi}{2} \cdot (2k + 1), \frac{\pi}{6} \cdot (2m + 1); \,\, k ,  m\in Z\right\}$  -- \textbf{абсолютно}.
+\underline{Ответ:} при $x \in (0, + \infty) \backslash  \left\{  \frac{\pi}{2}\right\} $  ряд сходится \textbf{условно}, при $x \in (3, + \infty) $  -- \textbf{абсолютно}.
 
 
 \newpage
